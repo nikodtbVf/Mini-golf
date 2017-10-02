@@ -1,0 +1,155 @@
+body{
+	font-family: arial,verdana,sans-serif,Georgia, "Times New Roman", Times, serif; 	
+	}
+
+.contenedormaster{
+	position: absolute;
+	left:0%;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+
+}
+.encabezado{
+	position: absolute;
+	left:0%;
+	top: 0px;
+	width: 100%;
+	height: 20%;
+}
+.fondo{
+	width: 100%;
+	height: 100%;
+    }
+
+.imfondo{
+	position: relative;
+	left:15%;
+	top: -60%;
+	height: 40%;
+	width: 70%;
+    }
+
+.envoltura{
+	position: absolute;
+	left: 20%;
+	top: 30%;
+	width: 60%;
+	}
+ 
+.contenedor{
+	box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+        }
+ 
+.cabecera{
+	position: relative;
+	background-color:#6B9CB0;
+	border-bottom: 2px solid #333;
+	height:20px;
+        }
+ 
+.cuerpo{
+	background:#ececec;
+	border:solid #ccc;
+	border-width: 2px 3px;
+	/*padding:14px 80px;*/
+        }
+ 
+label{
+	position: relative;
+	color: #666;
+    font-weight: bold;
+    }
+
+.margen{
+	position: relative;
+	left: 2%;
+}
+ 
+input{
+	position: relative;
+	border-radius:5px;
+	box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+	font:bold 12px Arial, Helvetica, sans-serif;
+	height: 24px;
+	width: 90%;
+        }
+         
+.botonsubmit{
+	position: relative;
+	background: #ccc;
+	background: -webkit-linear-gradient(top,#fc6,#f63);
+	background: linear-gradient(top,#fc6,#f63);
+	color: #666;
+	width: 80%;
+	left: 10%
+        }
+
+.botonsubmit:active{
+	position: relative;
+	top: 3px;
+        }
+
+.botonnum{
+        background:#ffffff;
+		border:0px;
+       }
+.centernum{
+	padding-top: 200px;
+	text-align:center;
+}
+       
+.margen-10{
+	margin-top:20px;
+	}
+.imagenum{
+	width: 100px;
+	height: 100px;
+	}
+.imagenum:active {
+	border: 10px solid transparent;
+}
+.imageback{
+	position: absolute;
+	left: 0;
+	top: 80%;
+	width: 100px;
+	height: 100px;
+	}
+.imageback:active{
+	border: 10px solid transparent;
+}
+.logoff{
+	position: absolute;
+	left:85%;
+	top: 10%;
+	width: 80px;
+	height: 80px;
+}
+.button60{
+	position: absolute;
+	left:10%;
+	top: 40%;
+
+}
+.button60:active {
+	border: 10px solid transparent;
+	}
+.button45{
+	position: absolute;
+	left:40%;
+	top: 40%;
+}
+.button45:active {
+	border: 10px solid transparent;
+	}
+
+.button30{
+	position: absolute;
+	left:70%;
+	top: 40%;
+
+}
+.button30:active {
+	border: 10px solid transparent;
+	}
